@@ -14,6 +14,10 @@ Member, OpenAPI Initiative Technical Steering Committee
 
 ---
 
+![Twitter Bio](images/twitter-bio.jpg)
+
+---
+
 ## Introduction - What is the OpenAPI Specification
 
 ---
