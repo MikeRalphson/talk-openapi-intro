@@ -65,6 +65,10 @@ List of paths or routes for the API, within that, operations or the HTTP methods
 
 ---
 
+![xkcd API](images/xkcd-orig.png)
+
+---
+
 ## What does one look like?
 
 *Schema for the comic object, with properties and types. Can be as complex as you want. JSON schema permitting.*
