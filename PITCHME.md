@@ -1,17 +1,22 @@
-OpenAPI 3.0
-June, 2018
-Mike Ralphson - Mermade Software
+# OpenAPI 3.0
+
+## June, 2018
+
+### Mike Ralphson - Mermade Software
 
 ---
 
-Mike Ralphson
+Mike Ralphson, Mermade Software
+
 Independent Software Consultant
-Mermade Software
+
 Member, OpenAPI Initiative Technical Steering Committee
 
 ---
 
-Introduction - What is the OpenAPI Specification
+# Introduction - What is the OpenAPI Specification
+
+---
 
 “[The] OpenAPI specification defines a standard, programming language-agnostic interface description for REST APIs, which allows both humans and computers to discover and understand the capabilities of a service without requiring access to source code, additional documentation, or inspection of network traffic. When properly defined via OpenAPI, a consumer can understand and interact with the remote service with a minimal amount of implementation logic. Similar to what interface descriptions have done for lower-level programming, the OpenAPI Specification removes guesswork in calling a service.”
 OpenAPI specification defines a standard, programming language-agnostic interface description for REST APIs, which allows both humans and computers to discover and understand the capabilities of a service without requiring access to source code, additional documentation, or inspection of network traffic. When properly defined via OpenAPI, a consumer can understand and interact with the remote service with a minimal amount of implementation logic. Similar to what interface descriptions have done for lower-level programming, the OpenAPI Specification removes guesswork in calling a service.
@@ -26,13 +31,12 @@ OpenAPI documents describe the public surface area of a RESTful API
 * Formerly known as the Swagger specification
 * Like WSDL for SOAP / web-services, but can be easily hand-generated
 * Supports HTTP(S), websockets, webhooks
-* Does not support async (MQ)  / gRPC / GraphQL APIs
-* See AsyncAPI
+* Does not support async (MQ)  / gRPC / GraphQL APIs *See AsyncAPI*
 * Not ‘true’ REST / Hypermedia - Richardson Maturity Model 2+
 
 ---
 
-Describing the surface area of your API
+## Describing the surface area of your API
 
 Metadata
 Name
@@ -72,7 +76,7 @@ Because human (only)-readable documentation sucks.
 
 ---
 
-Interactive documentation.
+# Interactive documentation.
 
 API consoles / testing tools, such as swagger-ui or postman
 
@@ -125,9 +129,9 @@ Defined in exactly the same way: path -> operations -> parameters etc
 
 ---
 
-# One standard to /bring them all, and in the darkness {bind} them
+### One standard to /bring them all, and in the darkness {bind} them
 
-## Alternatives
+#### Alternatives
 
 * RAML (modelling / reuse focus)
 * API Blueprint (markdown based)
